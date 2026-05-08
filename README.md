@@ -22,6 +22,10 @@ Every game feel parameter is now managed through ScriptableObject profiles. Deco
 
 The visual language was deliberately shifted to casual: mid-core VFX complexity was replaced with juicy feedback loops built for a broad audience. Every interaction is now a mini reward — squash, pop, shake. Players intuitively want the next move.
 
+### Directional Impact Particles
+
+On ball landing, impact particles are positioned and oriented to point outward from the hit point — reinforcing the physical direction of the impact. This is not decorative VFX; it's feedback design. The particle burst tells the eye exactly where the force came from, making the hit feel real and grounded.
+
 ### Screen Shake as Player Feedback
 
 Screen shake was added as a first-class feedback mechanism. Every ball landing triggers a camera shake tuned for impact weight — strength, vibrato, and randomness are all profile-controlled. The result: effects feel alive, every hit registers physically, and the overall juiciness of the game increases measurably. This is the difference between an action that happens on screen and one the player *feels*.
