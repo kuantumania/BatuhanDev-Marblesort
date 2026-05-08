@@ -14,27 +14,27 @@
 
 ### ScriptableObject-Driven Game Feel
 
-Every game feel parameter is now managed through ScriptableObject profiles. Decoupled from code, editable directly from the Inspector, swappable at runtime — no code changes needed to try a new feel. Designers can iterate independently, and different profiles can be A/B tested live.
+Every game feel parameter is now managed through ScriptableObject profiles. Decoupled from code, editable directly from the Inspector, swappable at runtime no code changes needed to try a new feel. Designers can iterate independently, and different profiles can be A/B tested live.
 
 ### Mid-Core → Casual VFX Pivot
 
-The visual language was deliberately shifted to casual: mid-core VFX complexity was replaced with juicy feedback loops built for a broad audience. Every interaction is now a mini reward — squash, pop, shake. Players intuitively want the next move.
+The visual language was deliberately shifted to casual: mid-core VFX complexity was replaced with juicy feedback loops built for a broad audience. Every interaction is now a mini reward squash, pop, shake. Players intuitively want the next move.
 
 ### Trail from First Lift
 
-The ball trail spawns the moment a ball starts to lift — not when it begins traveling toward the target. The magnetic force becomes visible before the movement does. The trail doesn't follow speed; it follows intent.
+The ball trail spawns the moment a ball starts to lift not when it begins traveling toward the target. The magnetic force becomes visible before the movement does. The trail doesn't follow speed; it follows intent.
 
 ### Stretch from First Lift
 
-From the moment a ball lifts off, a stretch scale is applied along the magnet's pull direction. The force is felt before the ball even starts moving fast — a classic animation principle that communicates "something is pulling this" to the player's subconscious instantly.
+From the moment a ball lifts off, a stretch scale is applied along the magnet's pull direction. The force is felt before the ball even starts moving fast a classic animation principle that communicates "something is pulling this" to the player's subconscious instantly.
 
 ### Directional Impact Particles
 
-On ball landing, impact particles are positioned and oriented to point outward from the hit point — reinforcing the physical direction of the impact. This is not decorative VFX; it's feedback design. The particle burst tells the eye exactly where the force came from, making the hit feel real and grounded.
+On ball landing, impact particles are positioned and oriented to point outward from the hit point reinforcing the physical direction of the impact. This is not decorative VFX; it's feedback design. The particle burst tells the eye exactly where the force came from, making the hit feel real and grounded.
 
 ### Screen Shake as Player Feedback
 
-Screen shake was added as a first-class feedback mechanism. Every ball landing triggers a camera shake tuned for impact weight — strength, vibrato, and randomness are all profile-controlled. The result: effects feel alive, every hit registers physically, and the overall juiciness of the game increases measurably. This is the difference between an action that happens on screen and one the player *feels*.
+Screen shake was added as a first-class feedback mechanism. Every ball landing triggers a camera shake tuned for impact weight strength, vibrato, and randomness are all profile-controlled. The result: effects feel alive, every hit registers physically, and the overall juiciness of the game increases measurably. This is the difference between an action that happens on screen and one the player *feels*.
 
 ### Magnet Collect System — Full Overhaul
 
