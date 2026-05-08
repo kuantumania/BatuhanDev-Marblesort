@@ -10,8 +10,6 @@
 2. On the screen that opens, tap the **blue box** and activate the **magnet booster**.
 3. To play again, tap the **magnet button** once more to reset the game.
 
----
-
 ## What Changed from the Base Project
 
 ### ScriptableObject-Driven Game Feel
@@ -21,6 +19,14 @@ Every game feel parameter is now managed through ScriptableObject profiles. Deco
 ### Mid-Core → Casual VFX Pivot
 
 The visual language was deliberately shifted to casual: mid-core VFX complexity was replaced with juicy feedback loops built for a broad audience. Every interaction is now a mini reward — squash, pop, shake. Players intuitively want the next move.
+
+### Trail from First Lift
+
+The ball trail spawns the moment a ball starts to lift — not when it begins traveling toward the target. The magnetic force becomes visible before the movement does. The trail doesn't follow speed; it follows intent.
+
+### Stretch from First Lift
+
+From the moment a ball lifts off, a stretch scale is applied along the magnet's pull direction. The force is felt before the ball even starts moving fast — a classic animation principle that communicates "something is pulling this" to the player's subconscious instantly.
 
 ### Directional Impact Particles
 
