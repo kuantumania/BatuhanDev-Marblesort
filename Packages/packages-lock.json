@@ -19,6 +19,13 @@
       },
       "hash": "92fb173507ece2c135c38733deeca82a6d49cacd"
     },
+    "com.dotsquid.chronohelper": {
+      "version": "https://github.com/dotsquid/ChronoHelper.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "94d67a9d61accda05df7255fa4a948cd03775bdb"
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
